@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a973db36d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body background="blur.jpg">
+    <section id="navbar">
+        <div class="nav-logo">
+            <!--<img src="my image.jpeg" alt="logo" height="100" width="150">!-->
+        </div>
+        <nav class="nav-btn">
+            <!-- <ul > -->
+            <div class="nav-item"><a href="#header">Home</a></div>
+            <div class="nav-item"><a href="#about">About</a></div>
+            <div class="nav-item"><a href="#footer"><button class="btn">Contact Me</button></a></div>
+            <!-- <i class="fa-solid fa-bars nav-icon" onclick="openMenu()"></i>
+            <i class="fa-solid fa-xmark nav-icon" onclick="closeMenu()"></i> -->
+            <!-- </ul> -->
+        </nav>
+    </section>
+
+    <section id="header">
+        <div>
+            <img class="head-img" src="my photo.jpeg" height="200" width="150" alt="logo">
+        </div>
+        <div>
+            <h1 class="head-h1">Anshika Varshney</h1>
+            <h3 class="head-h2" style="color:maroon;">I'm a Web Developer</h3>
+            <p class="head-p1"><strong> development is the work involved in developing a website
+                 for the Internet (World Wide Web) or an intranet (a private network)
+                 The knowledge of web tools that are required in basic web development includes HTML,
+                  CSS, JavaScript, and many more. These tools are required by 
+                  beginners in career building.</strong> </p>
+            <a href="mca resume.pdf" download class="btn">Download CV</a>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="about-img">
+            <!--<img class="head-img" src="my photo.jpeg" height="200" width="150" alt="logo">!-->
+        </div>
+        <div class="about">
+            <h1 class="about-h1">About <span>Me</span></h1>
+            <h3 class="about-h1" Anshika Varshney</h3>
+            <p class="about-p1"> My name is Anshika Varshney from Meerut.I have completed my 
+                graduation from ,MIT,meerut in BCA.Currently i am prsuing MCA from KIET,ghaziabad.
+                As my strengths are -I am a very positive person as well as responsible person.
+                I am patient and able to work well in a team.
+                </p>
+            <div class="about-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i><span>KIET,Delhi-NCR, Ghaziabad-Meerut Road
+                        Ghaziabad-201206</span></li>
+                <li><i class="fa-solid fa-phone"></i><span>+91 8171269901</span></li>
+                <li><i class="fa-solid fa-envelope"></i><span>anshiv494@gmail.com</span></li>
+                <li><i class="fa-brands fa-github"></i><span>Github</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="about-h2" style="text-align: center;">Contact me</h1>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i><span>Facebook</span></li>
+                <li><i class="fa-brands fa-instagram"></i><span>Instagram</span> </li>
+                <li> <i class="fa-brands fa-linkedin"></i><span>Linkedin</span></li>
+            </ul>
+        </div>
+    </section>
+    <!-- <hr> -->
+    <h3 class="footer-h1" style="text-align: center;">Made with ❤️ By Anshika Varshney</h3>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
